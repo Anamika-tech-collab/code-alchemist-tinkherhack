@@ -1,0 +1,204 @@
+/* Buttons */
+
+.primary-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2E7D32;
+  color: white;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #256628;
+}
+
+/* Input */
+
+.input-field {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+/* Login Page */
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.login-title {
+  text-align: center;
+  color: #2E7D32;
+}/* ===== Global Styles ===== */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #F9F5F0; /* soft, clean background */
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+p {
+  margin: 0;
+  color: #555;
+}
+
+/* ===== Buttons ===== */
+.primary-btn {
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: #D9480F; /* classy food-orange accent */
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.primary-btn:hover {
+  background-color: #B63B0C;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+/* ===== Inputs ===== */
+.input-field {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #D9480F;
+  box-shadow: 0 0 6px rgba(217, 72, 15, 0.3);
+}
+
+/* ===== Cards ===== */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+/* ===== Login Page ===== */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F9F5F0;
+}
+
+.login-card {
+  background: white;
+  padding: 40px;
+  border-radius: 16px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.login-title {
+  text-align: center;
+  color: #D9480F;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* ===== Dashboard ===== */
+.dashboard-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.impact-counter {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* ===== Donate & Pickup Forms ===== */
+.form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.form-container .card {
+  padding: 2rem;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #D9480F;
+}
+
+/* ===== Pickup Page List ===== */
+.pickup-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.pickup-card .primary-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  .impact-counter {
+    grid-template-columns: 1fr;
+  }
+}
