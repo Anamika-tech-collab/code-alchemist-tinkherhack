@@ -181,7 +181,8 @@ npm run dev
 
 ### Video
 
-[Link to Demo Video]
+[![Video ](./video.mp4)](./video.mp4)
+
 *The video demonstrates the end-to-end flow: a donor listing food with specific shelf-life details, the dashboard impact counters updating, and a volunteer claiming the food via the pickup grid.*
 
 ---
