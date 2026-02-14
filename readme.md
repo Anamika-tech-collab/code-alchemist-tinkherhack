@@ -30,7 +30,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ### Hosted Project Link
 
-Hosted but not fully configured yet.
+(https://1code-alchemist-tinkherhack.vercel.app/)
 
 ### Project Description
 
