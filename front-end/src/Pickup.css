@@ -1,0 +1,114 @@
+/* Main Page Background */
+.pickup-page {
+  background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.pickup-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styling */
+.header-banner {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.2);
+}
+
+.header-banner h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+/* Grid Layout */
+.food-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+/* Individual Food Cards */
+.food-card {
+  background: white;
+  border: 2px solid #81c784;
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.food-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.food-emoji { font-size: 1.8rem; }
+.card-header h3 { margin: 0; color: #1b5e20; }
+
+.card-body p {
+  margin: 8px 0;
+  color: #444;
+}
+
+/* Urgency Color Coding */
+.urgency-tag {
+  padding: 2px 10px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.urgency-tag.high { color: #d32f2f; background: #ffebee; }
+.urgency-tag.medium { color: #f57c00; background: #fff3e0; }
+.urgency-tag.low { color: #388e3c; background: #e8f5e9; }
+
+/* The Styled Button */
+.accept-btn {
+  margin-top: auto;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(to right, #f4511e 0%, #f4511e 50%, #43a047 50%, #43a047 100%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.accept-btn:hover {
+  background-position: right bottom;
+}
+
+/* Footer Info */
+.pickup-footer {
+  text-align: center;
+  margin-top: 50px;
+  font-style: italic;
+  color: #2e7d32;
+  font-weight: 500;
+}

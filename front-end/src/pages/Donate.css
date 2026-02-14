@@ -1,0 +1,51 @@
+.donate-page {
+  background: linear-gradient(135deg, #f1f8e9 0%, #ffffff 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.glass-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid #c8e6c9;
+  width: 100%;
+  max-width: 550px;
+}
+
+.eco-tag {
+  background: #e8f5e9;
+  color: #2e7d32;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1.5px solid #eee;
+  border-radius: 10px;
+  background: #fafafa;
+}
+
+.glow-btn {
+  width: 100%;
+  padding: 15px;
+  background: #d84315; /* Brand Orange */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.glow-btn:hover { background: #2e7d32; }
