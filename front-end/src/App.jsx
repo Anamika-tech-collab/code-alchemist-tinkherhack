@@ -3,9 +3,9 @@ import "./App.css";
 
 // Pages
 import Login from "./pages/Login";
-import Dashboard from "./pages/Dashboard";
-import Donate from "./pages/Donate";
-import Pickup from "./pages/Pickup";
+import Dashboard from "./pages/dashboard";
+import Donate from "./pages/donate";
+import Pickup from "./pages/pickup";
 
 function App() {
   return (
